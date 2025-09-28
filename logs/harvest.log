@@ -1,0 +1,66 @@
+[2025-09-28 17:08:41] === scorecard: College Scorecard sample ===
+[2025-09-28 17:08:41] SCORECARD_API_KEY not set; will attempt without (may fail).
+[2025-09-28 17:08:41] GET https://api.college_scorecard.ed.gov/api/v1/schools
+[2025-09-28 17:08:41] Scorecard error: HTTPSConnectionPool(host='api.college_scorecard.ed.gov', port=443): Max retries exceeded with url: /api/v1/schools?fields=id%2Cschool.name%2Cschool.state%2Cschool.carnegie_size_setting%2Clatest.student.size%2Clatest.admissions.admission_rate.overall%2Clatest.completion.rate_suppressed.overall%2Clatest.cost.avg_net_price.public%2Clatest.earnings.10_yrs_after_entry.median&per_page=100&page=0 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x126302a50>: Failed to resolve 'api.college_scorecard.ed.gov' ([Errno 8] nodename nor servname provided, or not known)"))
+[2025-09-28 17:08:41] === compas: COMPAS (ProPublica) Broward County ===
+[2025-09-28 17:08:41] Saved compas_broward.csv (7,214 rows)
+
+[2025-09-28 17:08:41] === hmda: HMDA sample (FFIEC/CFPB) ===
+[2025-09-28 17:08:41] GET https://ffiec.cfpb.gov/v2/data-browser-api/view/lar?year=2022&state=NY&format=csv
+[2025-09-28 17:08:42] HMDA error: 403 Client Error: Forbidden for url: https://ffiec.cfpb.gov/v2/data-browser-api/view/lar?year=2022&state=NY&format=csv
+
+[2025-09-28 17:08:42] === mpv: Mapping Police Violence (public mirror) ===
+[2025-09-28 17:08:42] MPV error: HTTP Error 404: Not Found
+[2025-09-28 17:08:42] === brfss: CDC BRFSS Prevalence (Socrata) ===
+[2025-09-28 17:08:42] GET https://chronicdata.cdc.gov/resource/6xvw-2v5j.csv?$limit=10000
+[2025-09-28 17:08:42] BRFSS error: 404 Client Error: Not Found for url: https://chronicdata.cdc.gov/resource/6xvw-2v5j.csv?$limit=10000
+[2025-09-28 17:08:42] === tri: EPA TRI (Envirofacts efservice) sample ===
+[2025-09-28 17:08:42] EPA TRI error: Error tokenizing data. C error: Expected 1 fields in line 16, saw 2
+
+[2025-09-28 17:08:42] === hrsa: HRSA HPSA (Socrata) sample ===
+[2025-09-28 17:08:42] GET https://data.hrsa.gov/resource/hgdw-ubwe.csv?$limit=10000
+[2025-09-28 17:08:42] HRSA error: Error tokenizing data. C error: Expected 1 fields in line 7, saw 2
+
+[2025-09-28 17:08:42] === cms: CMS Hospital General Information (Socrata) ===
+[2025-09-28 17:08:42] GET https://data.medicare.gov/resource/xubh-q36u.csv?$limit=10000
+[2025-09-28 17:08:42] CMS PDC error: HTTPSConnectionPool(host='data.medicare.gov', port=443): Max retries exceeded with url: /resource/xubh-q36u.csv?$limit=10000 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x126122d50>: Failed to resolve 'data.medicare.gov' ([Errno 8] nodename nor servname provided, or not known)"))
+[2025-09-28 17:08:42] === nyctlc: NYC TLC Trips sample (Socrata) ===
+[2025-09-28 17:08:43] NYC TLC try gnke-dk5s error: HTTP Error 404: Not Found
+[2025-09-28 17:08:44] Saved nyc_tlc_2yzn-sicd_sample.csv (20,000 rows)
+[2025-09-28 17:08:44] === clinicaltrials: ClinicalTrials.gov v2 completed interventional sample ===
+[2025-09-28 17:08:44] GET https://clinicaltrials.gov/api/v2/studies
+[2025-09-28 17:08:44] ClinicalTrials error: 400 Client Error: Bad Request for url: https://clinicaltrials.gov/api/v2/studies?format=json&query.term=AREA%5BOverallStatus%5DCompleted+AND+AREA%5BStudyType%5DInterventional&pageSize=100&pageToken=
+[2025-09-28 17:08:45] Saved compas_work_parity_base_rates.csv (4 rows)
+[2025-09-28 17:08:45] COMPAS visuals done.
+[2025-09-28 17:08:45] Done. See ./data, ./figures, and ./logs/harvest.log
+[2025-09-28 18:43:42] === compas: COMPAS (ProPublica) Broward County ===
+[2025-09-28 18:43:42] Saved compas_broward.csv (7,214 rows)
+[2025-09-28 18:43:42] === hmda: HMDA sample (FFIEC/CFPB Browser CSV) ===
+[2025-09-28 18:43:42] GET https://ffiec.cfpb.gov/v2/data-browser-api/view/lar.csv?year=2022&state=NY
+[2025-09-28 18:43:42] HMDA error: 404 Client Error: Not Found for url: https://ffiec.cfpb.gov/v2/data-browser-api/view/lar.csv?year=2022&state=NY
+[2025-09-28 18:43:42] === mpv: Mapping Police Violence (mirrors) ===
+[2025-09-28 18:43:42] MPV try failed: HTTP Error 404: Not Found
+[2025-09-28 18:43:42] MPV try failed: HTTP Error 404: Not Found
+[2025-09-28 18:43:42] MPV: all candidate URLs failed; skipping.
+[2025-09-28 18:43:42] === brfss: CDC BRFSS (Socrata JSON sample) ===
+[2025-09-28 18:43:42] GET https://chronicdata.cdc.gov/resource/9nys-gcy2.json?$limit=10000
+[2025-09-28 18:43:43] BRFSS: empty response; consider another dataset_id.
+[2025-09-28 18:43:43] === tri: EPA TRI (Envirofacts CSV sample) ===
+[2025-09-28 18:43:43] Saved epa_tri_release_qty_sample.csv (320 rows)
+[2025-09-28 18:43:43] === hrsa: HRSA HPSA (Socrata JSON) ===
+[2025-09-28 18:43:43] GET https://data.hrsa.gov/resource/hgdw-ubwe.json?$limit=10000
+[2025-09-28 18:43:43] HRSA error: Expecting value: line 1 column 1 (char 0)
+[2025-09-28 18:43:43] === cms: CMS Hospital General Information (metastore -> CSV) ===
+[2025-09-28 18:43:43] GET https://data.cms.gov/provider-data/api/1/metastore/schemas/dataset/items/xubh-q36u
+[2025-09-28 18:43:44] Saved cms_hospital_general_info.csv (5,381 rows)
+[2025-09-28 18:43:44] === nyctlc: NYC TLC Trips sample (Socrata) ===
+[2025-09-28 18:43:44] GET https://data.cityofnewyork.us/resource/gnke-dk5s.csv?$limit=20000
+[2025-09-28 18:43:44] NYC TLC try gnke-dk5s error: 404 Client Error: Not Found for url: https://data.cityofnewyork.us/resource/gnke-dk5s.csv?$limit=20000
+[2025-09-28 18:43:44] GET https://data.cityofnewyork.us/resource/2yzn-sicd.csv?$limit=20000
+[2025-09-28 18:43:46] Saved nyc_tlc_2yzn-sicd_sample.csv (20,000 rows)
+[2025-09-28 18:43:46] === clinicaltrials: ClinicalTrials.gov v2 Completed + Interventional ===
+[2025-09-28 18:43:46] GET https://clinicaltrials.gov/api/v2/studies
+[2025-09-28 18:43:46] ClinicalTrials error: 400 Client Error: Bad Request for url: https://clinicaltrials.gov/api/v2/studies?format=json&filter.overallStatus=Completed&filter.studyType=Interventional&pageSize=100
+[2025-09-28 18:43:46] Saved compas_work_parity_base_rates.csv (4 rows)
+[2025-09-28 18:43:46] COMPAS visuals done.
+[2025-09-28 18:43:46] Done. See ./data, ./figures, and ./logs/harvest.log

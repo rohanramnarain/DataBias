@@ -1,0 +1,321 @@
+<!doctype html>
+"<html lang=""en"" dir=""ltr"" prefix=""og: https://ogp.me/ns#"" class=""no-js"">"
+    <head>
+"        <meta charset=""utf-8"" />"
+"        <meta property=""og:site_name"" content=""US EPA"" />"
+"        <meta name=""twitter:card"" content=""summary_large_image"" />"
+"        <meta name=""twitter:image:alt"" content=""U.S. Environmental Protection Agency"" />"
+"        <meta name=""twitter:image:height"" content=""600"" />"
+"        <meta name=""twitter:image:width"" content=""1200"" />"
+        <meta
+"            name=""twitter:image"""
+"            content=""https://origin-aws-www.epa.gov/sites/all/themes/epa/img/epa-standard-twitter.jpg"""
+        />
+"        <meta name=""MobileOptimized"" content=""width"" />"
+"        <meta name=""HandheldFriendly"" content=""true"" />"
+"        <meta http-equiv=""x-ua-compatible"" content=""ie=edge"" />"
+        <meta
+"            name=""DC.description"""
+        />
+        <meta
+"            name=""Keywords"""
+        />
+        <link
+"            rel=""icon"""
+"            type=""image/x-icon"""
+"            href=""https://www.epa.gov/themes/epa_theme/images/favicon.ico"""
+        />
+"        <meta name=""msapplication-TileColor"" content=""#FFFFFF"" />"
+"        <meta name=""msapplication-TileImage"" content=""/themes/epa_theme/images/favicon-144.png"" />"
+"        <meta name=""application-name"" content="""" />"
+"        <meta name=""msapplication-config"" content=""/themes/epa_theme/images/ieconfig.xml"" />"
+        <link
+"            rel=""apple-touch-icon-precomposed"""
+"            sizes=""196x196"""
+"            href=""https://www.epa.gov/themes/epa_theme/images/favicon-196.png"""
+        />
+        <link
+"            rel=""apple-touch-icon-precomposed"""
+"            sizes=""152x152"""
+"            href=""https://www.epa.gov/themes/epa_theme/images/favicon-152.png"""
+        />
+        <link
+"            rel=""apple-touch-icon-precomposed"""
+"            sizes=""144x144"""
+"            href=""https://www.epa.gov/themes/epa_theme/images/favicon-144.png"""
+        />
+        <link
+"            rel=""apple-touch-icon-precomposed"""
+"            sizes=""120x120"""
+"            href=""https://www.epa.gov/themes/epa_theme/images/favicon-120.png"""
+        />
+        <link
+"            rel=""apple-touch-icon-precomposed"""
+"            sizes=""114x114"""
+"            href=""https://www.epa.gov/themes/epa_theme/images/favicon-114.png"""
+        />
+        <link
+"            rel=""apple-touch-icon-precomposed"""
+"            sizes=""72x72"""
+"            href=""https://www.epa.gov/themes/epa_theme/images/favicon-72.png"""
+        />
+        <link
+"            rel=""apple-touch-icon-precomposed"""
+"            href=""https://www.epa.gov/themes/epa_theme/images/favicon-180.png"""
+        />
+        <link
+"            rel=""icon"""
+"            href=""https://www.epa.gov/themes/epa_theme/images/favicon-32.png"""
+"            sizes=""32x32"""
+        />
+        <link
+"            rel=""preload"""
+"            href=""https://www.epa.gov/themes/epa_theme/fonts/source-sans-pro/sourcesanspro-regular-webfont.woff2"""
+"            as=""font"""
+"            crossorigin=""anonymous"""
+        />
+        <link
+"            rel=""preload"""
+"            href=""https://www.epa.gov/themes/epa_theme/fonts/source-sans-pro/sourcesanspro-bold-webfont.woff2"""
+"            as=""font"""
+"            crossorigin=""anonymous"""
+        />
+        <link
+"            rel=""preload"""
+"            href=""https://www.epa.gov/themes/epa_theme/fonts/source-sans-pro/sourcesanspro-italic-webfont.woff2"""
+"            as=""font"""
+"            crossorigin=""anonymous"""
+        />
+        <link
+"            rel=""preload"""
+"            href=""https://www.epa.gov/themes/epa_theme/fonts/merriweather/Latin-Merriweather-Bold.woff2"""
+"            as=""font"""
+"            crossorigin=""anonymous"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/ajax-progress.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/align.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/autocomplete-loading.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/fieldgroup.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/container-inline.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/clearfix.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/details.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/hidden.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/item-list.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/js.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/nowrap.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/position-container.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/progress.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/reset-appearance.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/resize.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/sticky-header.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/system-status-counter.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/system-status-report-counters.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/system-status-report-general-info.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/tabledrag.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/tablesort.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/contrib/stable/css/system/components/tree-child.module.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/modules/contrib/paragraphs/css/paragraphs.unpublished.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/epa_theme/fonts/noto-sans-arabic.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/epa_theme/fonts/noto-sans-kr.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/epa_theme/fonts/noto-sans-bn.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/epa_theme/fonts/noto-sans-gu.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/epa_theme/fonts/noto-sans-sc.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/epa_theme/fonts/noto-sans-tc.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/epa_theme/css/styles.css?spbsd9"""
+        />
+        <link
+"            rel=""stylesheet"""
+"            media=""all"""
+"            href=""https://www.epa.gov/themes/epa_theme/css-lib/colorbox.min.css?spbsd9"""
+        />
+        <!-- Google Tag Manager -->
+        <script>
+                w[l] = w[l] || [];
+                    dl = l != 'dataLayer' ? '&l=' + l : '';
+                j.async = true;
+                j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        </script>
+        <!-- End Google Tag Manager -->
+        <title>Envirofacts | US EPA</title>
+"      <script type=""module"" crossorigin src=""/assets/main-DJbikwJF.js""></script>"
+"      <link rel=""stylesheet"" crossorigin href=""/assets/main-CD-l3FeD.css"">"
+    </head>
+"    <body class=""has-wide-template node-page node-page--node-type-web-area"" id=""top"">"
+"        <div class=""skiplinks"" role=""navigation"" aria-labelledby=""skip-to-main"">"
+"            <a id=""skip-to-main"" href=""#app"" class=""skiplinks__link visually-hidden focusable"""
+                >Skip to main content</a
+            >
+        </div>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript
+            ><iframe
+"                src=""https://www.googletagmanager.com/ns.html?id=GTM-L8ZB"""
+"                height=""0"""
+"                width=""0"""
+"                style=""display: none; visibility: hidden"""
+            ></iframe
+        ></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <div
+"            id=""ieMessage"""
+"            style="""
+                display: none;
+                padding: 20px;
+                background-color: #046b99;
+                color: white;
+                margin-bottom: 15px;
+"            """
+        >
+            <strong
+                >We're sorry but Envirofacts is not intended to work with Internet Explorer. Please
+                switch to Chrome/Edge/Firefox or any modern browser to continue.</strong
+            >
+        </div>
+"        <div id=""app"">"
+        </div>
+"        <script src=""https://www.epa.gov/core/assets/vendor/jquery/jquery.min.js?v=3.7.1""></script>"
+"        <script src=""https://www.epa.gov/core/assets/vendor/once/once.min.js?v=1.0.1""></script>"
+"        <script src=""https://www.epa.gov/core/misc/drupalSettingsLoader.js?v=10.2.3""></script>"
+"        <script src=""https://www.epa.gov/core/misc/drupal.js?v=10.2.3""></script>"
+"        <script src=""https://www.epa.gov/core/misc/drupal.init.js?v=10.2.3""></script>"
+"        <script src=""https://www.epa.gov/core/assets/vendor/tabbable/index.umd.min.js?v=6.2.0""></script>"
+"        <script src=""https://www.epa.gov/modules/custom/epa_wysiwyg/js/plugins/epaNew/epaNew.js?spbsd9""></script>"
+"        <script src=""https://www.epa.gov/core/misc/progress.js?v=10.2.3""></script>"
+"        <script src=""https://www.epa.gov/core/assets/vendor/loadjs/loadjs.min.js?v=4.2.0""></script>"
+"        <script src=""https://www.epa.gov/core/misc/debounce.js?v=10.2.3""></script>"
+"        <script src=""https://www.epa.gov/core/misc/announce.js?v=10.2.3""></script>"
+"        <script src=""https://www.epa.gov/core/misc/message.js?v=10.2.3""></script>"
+"        <script src=""https://www.epa.gov/core/misc/ajax.js?v=10.2.3""></script>"
+"        <script src=""https://www.epa.gov/themes/contrib/stable/js/ajax.js?v=10.2.3""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/common.min.js?v=20240924""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/scripts.min.js?v=20240924""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/header-search.min.js?v=20240924""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/epa-alerts.min.js?v=20240924""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/sitewide-alert.min.js?v=20240924""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/private-sitewide-alert.min.js?v=20240924""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/definition.min.js?v=20240924""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/external-links.min.js?v=20240924""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/protected-links.min.js?v=20240924""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/vid-copy.min.js?v=20240924""></script>"
+"        <script src=""https://www.epa.gov/themes/epa_theme/js/dist/sidenav-menu.min.js?v=20240924""></script>"
+    </body>
+</html>
